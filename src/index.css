@@ -10,3 +10,11 @@ html,
 body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.hello{
+  padding: 1.5rem 0;
+}
+
+.hello h1{
+  text-align: center;
+}
