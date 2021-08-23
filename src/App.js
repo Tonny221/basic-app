@@ -11,8 +11,10 @@ function App() {
 
   return (
     <div>
-      <button className='btn' onClick={buttonHandler}>Click Here!</button>
-      { showMassage && <Hello />}
+      <div className='interactive-btn'>
+        <button className='btn' onClick={buttonHandler}>Click Here!</button>
+      </div>
+      { showMassage && <Hello /> }
     </div>
   );
 }
